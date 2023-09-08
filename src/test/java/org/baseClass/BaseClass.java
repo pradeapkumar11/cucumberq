@@ -18,12 +18,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class BaseClass {
 
-//100000000000000000000
+//
 public static WebDriver driver;
 public static JavascriptExecutor j;
 
 //2 
-public static void chrome() {
+public static void ChromeBrowser() {
 System.setProperty("webdriver.chrome.driver","C:\\Users\\Pradeep\\workspace\\JavaProject\\drivers\\chromedriver.exe");	
 driver = new ChromeDriver();
 }
