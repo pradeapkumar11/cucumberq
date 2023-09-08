@@ -23,7 +23,7 @@ public static WebDriver driver;
 public static JavascriptExecutor j;
 
 //2 
-public static void ChromeBrowser() {
+public static void chromeBrowser() {
 System.setProperty("webdriver.chrome.driver","C:\\Users\\Pradeep\\workspace\\JavaProject\\drivers\\chromedriver.exe");	
 driver = new ChromeDriver();
 }
